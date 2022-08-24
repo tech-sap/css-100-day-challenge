@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main{
+    background-color: #eef0f2;
+    height: 720px;
+}
+
+.main-content {
+    display: flex;
+    position: absolute;
+    top: 315px;
+    left: 46.5%;
+    transform: translate(-50%, -50%);
+}
+
+.logo {
+    width: 540px;
+    padding: 30px 0;
+    margin: 50px;
+}
+
+.logo p {
+    font-size: 28px;
+    margin-left: 32px;
+    padding: -10px;
+}
+
+.logo img {
+    width: 324px;
+}
+
+.login {
+    border: 2px solid white;
+    background-color: white;
+    width: 360px;
+    height: 335px;
+    border-radius:8px;
+    text-align: center;
+    padding: 12px 6px;
+    margin: 32px;
+}
+
+.login > form > * {
+    border:0.0001px solid grey;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 6px 0px;
+    width: 98%;
+    height: 50px;
+}
+.login a {
+    border: none;
+}
+
+.login #login-btn {
+    background-color: #1a76f2;
+    font-size: 24px;
+    color: white;
+    margin: 8px 0px;
+}
+
+.login #fgt-pwd {
+    color: #1a76f2;
+    display: block;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 18px 6px 32px 6px;
+    height: 0px;
+}
+
+.login #fgt-pwd:hover {
+    text-decoration: underline;
+}
+
+.login hr {
+    height: 1px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.login #new-acc-btn {
+    background-color: #36b412;
+    width: 60%;
+    color: white;
+    font-size: 18px;
+}
+
+.new-page-desc {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.new-page-desc a {
+    display: inline-block;
+    color: black;
+    font-size: 15px;
+    font-weight: 900 !important;
+    text-decoration: none;
+}
+
+.new-page-desc a:hover {
+    text-decoration: underline;
+}
+.footer {
+    width: 100%;
+    height: 20%;
+}
+
